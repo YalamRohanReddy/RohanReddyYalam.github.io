@@ -64,7 +64,7 @@ export const HeroSection = () => (
             `object-cover` and rounded corners keep the smooth curves. */}
         <div className="w-full overflow-hidden rounded-[1.75rem]">
           <img
-            src="/profile.jpg"
+            src="./profile.jpg"
             alt="Rohan Reddy Yalam"
             className="w-full h-full object-cover"
           />
