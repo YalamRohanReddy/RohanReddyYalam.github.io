@@ -1,0 +1,1 @@
+import{j as t}from"./index-BQy-cScT.js";import{C as i}from"./ContactSection-BfgReKc8.js";import{m as o}from"./SectionHeading-S7OxqAO0.js";const r=()=>t.jsx(o.main,{initial:{opacity:0,y:16},animate:{opacity:1,y:0},exit:{opacity:0,y:-16},transition:{duration:.5},className:"min-h-screen",children:t.jsx(i,{})});export{r as Contact};
