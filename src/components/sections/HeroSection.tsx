@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import HeroIllustration from '../../assets/coding-illustration.svg';
+import ProfilePicture from '../../../profilepicture.jpeg';
 
 export const HeroSection = () => (
   <section className="relative overflow-hidden py-20" id="home">
@@ -64,7 +64,7 @@ export const HeroSection = () => (
             `object-cover` and rounded corners keep the smooth curves. */}
         <div className="w-full overflow-hidden rounded-[1.75rem]">
           <img
-            src="./profile.jpg"
+            src={ProfilePicture}
             alt="Rohan Reddy Yalam"
             className="w-full h-full object-cover"
           />
