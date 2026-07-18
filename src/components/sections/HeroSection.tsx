@@ -58,7 +58,17 @@ export const HeroSection = () => (
         transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
         className="mx-auto max-w-xl rounded-[2rem] border border-white/10 bg-slate-950/30 p-6 shadow-glass backdrop-blur-3xl"
       >
-        <img src={HeroIllustration} alt="Coding illustration" className="w-full rounded-[1.75rem] border border-white/10 bg-slate-900/60 p-6" />
+        {/* Replace the hero illustration with the author's profile picture.
+            Place your profile image at `public/profile.jpg`. The image is
+            referenced with a relative path so Vite will serve it as-is.
+            `object-cover` and rounded corners keep the smooth curves. */}
+        <div className="w-full overflow-hidden rounded-[1.75rem]">
+          <img
+            src="./profile.jpg"
+            alt="Rohan Reddy Yalam"
+            className="w-full h-full object-cover"
+          />
+        </div>
       </motion.div>
     </div>
   </section>
